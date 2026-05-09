@@ -234,6 +234,7 @@ function notify($user, $templateName, $shortCodes = null, $sendVia = null, $crea
         'site_name' => gs('site_name'),
         'site_currency' => gs('cur_text'),
         'currency_symbol' => gs('cur_sym'),
+        'year' => date('Y'),
     ];
 
     if (gettype($user) == 'array') {
