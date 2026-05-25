@@ -26,11 +26,11 @@
                                         <li><a href="#video" data-bs-toggle="tab">@lang('Video')</a></li>
                                     @endif
 
-                                    @if (gs('product_review'))
+                                    <!-- @if (gs('product_review'))
                                         <li class="review-rating-tab"><a href="#reviews"
                                                 data-bs-toggle="tab">@lang('Reviews')({{ __($product->reviews_count) }})</a>
                                         </li>
-                                    @endif
+                                    @endif -->
                                 </ul>
 
                                 <div class="tab-content">
