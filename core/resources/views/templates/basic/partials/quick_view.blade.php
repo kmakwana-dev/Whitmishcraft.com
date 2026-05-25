@@ -49,14 +49,14 @@
                     @endforelse
                 </span>
 
-                <span>
+                <!-- <span>
                     <b class="product-details-label">@lang('Brand'):</b>
                     @if ($product->brand)
                         <a href="{{ $product->brand->shopLink() }}">{{ __($product->brand->name) }}</a>
                     @else
                         @lang('Non Brand')
                     @endif
-                </span>
+                </span> -->
 
                 <span>
                     <b class="product-details-label">@lang('SKU'):</b> <span id="productSku">{{ $product->sku ?? __('Not available') }}</span>
